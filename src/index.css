@@ -1,0 +1,190 @@
+:root {
+    --primary-color: #1a1a1a;
+    --accent-color: #21a04c;
+    --text-color: #ffffff;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family: 'Inter', sans-serif;
+    color: var(--text-color);
+    background-color: var(--primary-color);
+}
+
+
+
+
+.hero-container{
+    width: 85%;
+    height: 100%;
+    margin: auto 20px;
+    color: var(--text-color);
+}
+
+.hero-section{
+    background-image: url('/homepageImg/verdantia1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+.home-img{
+    width: auto;
+    height: 100vh;
+}
+
+.home-btn{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.list-link{
+    margin-left: 30px !important;
+}
+
+
+.card-img-top{
+    border-radius: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+.cards{
+    transition: transform 0.2s ease-in-out;
+    border-radius: 20px;
+    background-color: var(--primary-color);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.cards:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.nav-link {
+  position: relative;
+  display: inline-block;
+  transition: transform 0.2s ease, border-bottom 0.2s ease;
+}
+
+.nav-link:hover {
+  transform: translateY(-2px);
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transform-origin: left;
+  color: var(--accent-color);
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  transform: scaleX(1);
+}
+
+
+.spotlight-section{
+    background-image: url('/spotlightImg/img4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+.contactContainer{
+    background-image: url('/contactImg/contactimg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+ .responsive-text{
+    font-size: 1rem !important;
+}
+    
+.hero-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.typewriter-h4 {
+    font-size: 1.5rem !important;
+    text-align: center;
+}
+
+.typewriter-text {
+    font-size: 1.1rem !important;
+    text-align: center;
+    width: 100vw;
+    margin: 20px auto;
+}
+
+.hero-btn{
+    font-size: 1rem !important;
+    padding: 10px !important;
+    /* margin-top: 20px !important; */
+}
+
+.home-list{
+    margin-top: 20px !important;
+}
+
+.list-link{
+    margin-left: 20px !important;
+}
+
+.spotlight-section{
+    background-image: url('/spotlightImg/img1.jpg');
+}
+
+/* .titles{
+    font-size: 1.3rem !important;
+} */
+
+
+.sm_spotlight{
+    display: flex;
+    flex-direction: column;
+}
+
+.sm_spotlight_img{
+    width: 100vw !important;
+}
+
+
+.contactContainer{
+    background-image: url('/contactImg/img2.jpg');
+    
+}
+}
