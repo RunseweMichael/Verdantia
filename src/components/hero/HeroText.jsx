@@ -7,7 +7,7 @@ function HeroSection() {
       <div className="p-4 hero-container">
         <div className='row'>
             <div className='col-md-10'>
-        <h4 className="display-6 fw-bold mb-4 text-success typewriter-h4">
+        <h4 className="fw-bold mb-4 text-success typewriter-h4 fs-4">
           <Typewriter
             options={{
               strings: [
