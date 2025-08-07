@@ -7,14 +7,14 @@ function HeroSection() {
       <div className="p-4 hero-container">
         <div className='row'>
             <div className='col-md-10'>
-        <h4 className="display-5 fw-bold mb-3 text-success typewriter-h4">
+        <h4 className="display-6 fw-bold mb-4 text-success typewriter-h4">
           <Typewriter
             options={{
               strings: [
                 'Grow With Nature.',
-                'Plant Today. Bloom Tomorrow.',
+                'Cultivate Your Passion.',
                 'Your Garden Starts Here.',
-                'WELCOME TO VERDANTIA!'
+                'Welcome To VERDANTIA!'
               ],
               autoStart: true,
               loop: true,
@@ -25,7 +25,7 @@ function HeroSection() {
         <p className="lead mb-4 typewriter-text" style={{width: '70%'}}>
           Discover expert gardening tips, sustainable practices, and everything you need to build a thriving green space.
         </p>
-        <div className='d-flex gap-3 mb-3'>
+        <div className='d-flex gap-3 mb-4'>
         <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-semibold hero-btn">
           Browse Plants
         </a>
@@ -33,8 +33,8 @@ function HeroSection() {
           Join the Community
         </a>
         </div>
-        <h4 className='mt-4 text-success'>What We Offer:</h4>
-        <ul className="list-unstyled mt-1 home-list">
+        <h4 className='mt-5 text-success fw-bold'>What We Offer:</h4>
+        <ul className="list-unstyled mt-2 home-list">
           <li className="mb-2 list-link">🌼 Personalized planting guides</li>
           <li className="mb-2 list-link">🌞 Sustainable gardening tips</li>
           <li className="mb-2 list-link">💧 Water-wise planning</li>

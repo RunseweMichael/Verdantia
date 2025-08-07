@@ -62,7 +62,7 @@ const Showcase = () => {
                   style={{ borderTopLeftRadius: "20px", borderTopRightRadius: "20px" }}
                 />
                 <div className="card-body text-start">
-                  <h5 className="card-title text-success">{item.name}</h5>
+                  <h5 className="card-title text-success fw-bold">{item.name}</h5>
                   <p className="card-subtitle text-muted mb-2">{item.location}</p>
                   <p className="card-text text-white">{item.caption}</p>
                 </div>
@@ -72,7 +72,7 @@ const Showcase = () => {
         </div>
 
         <div className="text-center mt-5">
-          <a href="/community/submit" className="btn btn-outline-success">
+          <a href="/community/submit" className="btn btn-outline-success fw-bold">
             🌱 Submit Your Garden
           </a>
         </div>

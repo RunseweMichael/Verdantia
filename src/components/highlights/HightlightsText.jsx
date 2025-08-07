@@ -22,7 +22,7 @@ const HighlightsText = () => {
                 alt="Plant of the Month"
               />
               <div className="card-body">
-                <h5 className="card-title text-success">
+                <h5 className="card-title text-success fw-bold">
                   🌼 Plant of the Month
                 </h5>
                 <p className="card-text text-white">
@@ -31,7 +31,7 @@ const HighlightsText = () => {
                 </p>
                 <a
                   href="/plants/featured"
-                  className="btn btn-outline-success btn-sm"
+                  className="btn btn-outline-success btn-sm fw-bold"
                 >
                   Learn More
                 </a>
@@ -50,7 +50,7 @@ const HighlightsText = () => {
                 alt="Seasonal Tips"
               />
               <div className="card-body">
-                <h5 className="card-title text-success">
+                <h5 className="card-title text-success fw-bold">
                   📅 August Gardening Tips
                 </h5>
                 <p className="card-text text-white">
@@ -59,7 +59,7 @@ const HighlightsText = () => {
                 </p>
                 <a
                   href="/guides/august-tips"
-                  className="btn btn-outline-success btn-sm"
+                  className="btn btn-outline-success btn-sm fw-bold"
                 >
                   View Guide
                 </a>
@@ -78,7 +78,7 @@ const HighlightsText = () => {
                 alt="Latest Blog Post"
               />
               <div className="card-body">
-                <h5 className="card-title text-success">
+                <h5 className="card-title text-success fw-bold">
                   📝 Latest from the Blog
                 </h5>
                 <p className="card-text text-white">
@@ -87,7 +87,7 @@ const HighlightsText = () => {
                 </p>
                 <a
                   href="/blog/latest"
-                  className="btn btn-outline-success btn-sm"
+                  className="btn btn-outline-success btn-sm fw-bold"
                 >
                   Read Blog
                 </a>
@@ -106,7 +106,7 @@ const HighlightsText = () => {
                 alt="Toolbox"
               />
               <div className="card-body">
-                <h5 className="card-title text-success">
+                <h5 className="card-title text-success fw-bold">
                   🧰 Garden Planner Tool
                 </h5>
                 <p className="card-text text-white">
@@ -115,7 +115,7 @@ const HighlightsText = () => {
                 </p>
                 <a
                   href="/tools/planner"
-                  className="btn btn-outline-success btn-sm"
+                  className="btn btn-outline-success btn-sm fw-bold"
                 >
                   Try It Now
                 </a>
@@ -134,7 +134,7 @@ const HighlightsText = () => {
                 alt="DIY Garden Project"
               />
               <div className="card-body">
-                <h5 className="card-title text-success">
+                <h5 className="card-title text-success fw-bold">
                   🛠️ DIY Garden Project
                 </h5>
                 <p className="card-text text-white">
@@ -143,7 +143,7 @@ const HighlightsText = () => {
                 </p>
                 <a
                   href="/guides/diy-raised-bed"
-                  className="btn btn-outline-success btn-sm"
+                  className="btn btn-outline-success btn-sm fw-bold"
                 >
                   View Project
                 </a>
@@ -162,7 +162,7 @@ const HighlightsText = () => {
                 alt="Herb Spotlight"
               />
               <div className="card-body">
-                <h5 className="card-title text-success">
+                <h5 className="card-title text-success fw-bold">
                   🌿 Herb Spotlight: Amaranthus
                 </h5>
                 <p className="card-text text-white">
@@ -171,7 +171,7 @@ const HighlightsText = () => {
                 </p>
                 <a
                   href="/plants/amaranthus"
-                  className="btn btn-outline-success btn-sm"
+                  className="btn btn-outline-success btn-sm fw-bold"
                 >
                   Grow Amaranthus
                 </a>
@@ -184,7 +184,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingOne">
               <button
-                className="accordion-button bg-success text-white"
+                className="accordion-button bg-success text-white fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -213,7 +213,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingTwo">
               <button
-                className="accordion-button collapsed bg-success text-white"
+                className="accordion-button collapsed bg-success text-white fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -243,7 +243,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingThree">
               <button
-                className="accordion-button collapsed bg-success text-white"
+                className="accordion-button collapsed bg-success text-white fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -289,7 +289,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingFour">
               <button
-                className="accordion-button collapsed bg-success text-white"
+                className="accordion-button collapsed bg-success text-white fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
@@ -315,7 +315,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingFive">
               <button
-                className="accordion-button collapsed bg-success text-white"
+                className="accordion-button collapsed bg-success text-white fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
@@ -342,7 +342,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingSix">
               <button
-                className="accordion-button collapsed bg-success text-white"
+                className="accordion-button collapsed bg-success text-white fw-bold"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSix"

@@ -18,17 +18,17 @@ const SpotlightText = () => {
         <Tab.Container activeKey={activeKey} onSelect={(k) => setActiveKey(k)}>
           <Nav variant="pills" className="justify-content-center fw-bold mb-4">
             <Nav.Item>
-              <Nav.Link eventKey="plant" className="text-success ">
+              <Nav.Link eventKey="plant" className="text-success fw-bold">
                 Plant Details
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="uses" className="text-success">
+              <Nav.Link eventKey="uses" className="text-success fw-bold">
                 Uses & Benefits
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="facts" className="text-success">
+              <Nav.Link eventKey="facts" className="text-success fw-bold">
                 Quick Facts
               </Nav.Link>
             </Nav.Item>
@@ -36,7 +36,7 @@ const SpotlightText = () => {
 
           <Tab.Content className="bg-dark p-4 rounded shadow text-start border border-success">
             <Tab.Pane eventKey="plant">
-              <h4 className="text-success">🌼 Spotlight: Lavender</h4>
+              <h4 className="text-success fw-bold">🌼 Spotlight: Lavender</h4>
               <p>
                 Lavender is a fragrant herb known for its calming scent and
                 stunning purple flowers. It thrives in full sun and well-drained
@@ -74,7 +74,7 @@ const SpotlightText = () => {
                 }}
               >
                 <div>
-                  <h4 className="text-success">🌿 How to Use Lavender</h4>
+                  <h4 className="text-success fw-bold">🌿 How to Use Lavender</h4>
                   <ul>
                     <li>Make calming teas or infusions</li>
                     <li>Use dried lavender in sachets for closets</li>
@@ -94,7 +94,7 @@ const SpotlightText = () => {
             <Tab.Pane eventKey="facts">
               <div className="d-flex justify-content-around align-items-center sm_spotlight">
                 <div>
-                  <h4 className="text-success">📌 Fast Facts</h4>
+                  <h4 className="text-success fw-bold">📌 Fast Facts</h4>
                   <ul>
                     <li>
                       <strong>Scientific Name:</strong> Lavandula

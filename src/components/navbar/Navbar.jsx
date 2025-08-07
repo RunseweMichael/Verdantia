@@ -7,11 +7,10 @@ const Navbar = () => {
     try {
       const response = await fetch('http://127.0.0.1:8000/logout/', {
         method: 'POST',
-        credentials: 'include', // important for cookies/session
+        credentials: 'include',
       });
 
       if (response.ok) {
-        // Optional: redirect to homepage or login page
         window.location.href = '/';
       } else {
         console.error('Logout failed');
@@ -24,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top w-100">
-      <div className="container-fluid d-flex justify-content-between align-items-center">
+      <div className="container-fluid d-flex justify-content-around align-items-center">
         <div
           className="navbar-brand fw-bolder text-success responsive-text navbar-title_sm"
           style={{
@@ -53,7 +52,7 @@ const Navbar = () => {
           id="navbarNavDropdown"
         >
           <ul
-            className="navbar-nav mx-auto gap-4 py-3 px-4 d-flex justify-content-center align-items-center"
+            className="navbar-nav mx-auto gap-2 py-3 px-2 d-flex justify-content-center align-items-center"
             style={{
               border: "1px solid white",
               borderRadius: "20px",
@@ -99,7 +98,7 @@ const Navbar = () => {
             </li>
             <button
               type="button"
-              className="btn btn-outline-danger d-inline d-sm-none"
+              className="btn btn-outline-danger d-inline d-sm-none fw-bold"
               style={{ backdropFilter: "blur(20px)" }}
               onClick={handleLogout}
             >
@@ -108,7 +107,7 @@ const Navbar = () => {
           </ul>
           <button
             type="button"
-            className="btn btn-outline-danger d-none d-lg-inline ms-4"
+            className="btn btn-outline-danger d-none d-lg-inline ms-4 fw-bold"
             style={{ backdropFilter: "blur(20px)" }}
              onClick={handleLogout}
           >

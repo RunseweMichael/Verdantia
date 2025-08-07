@@ -20,17 +20,17 @@ const AboutText = () => {
         <div className="row">
           <div className="col-md-4 mb-4">
             <div className="fs-1">🌍</div>
-            <h4 className="text-success fw-bold mt-2">Sustainability First</h4>
+            <h5 className="text-success fw-bold mt-2">Sustainability First</h5>
             <p className="text-white">Eco-friendly techniques for long-term growth.</p>
           </div>
           <div className="col-md-4 mb-4">
             <div className="fs-1">📚</div>
-            <h4 className="text-success fw-bold mt-2">Knowledge You Can Trust</h4>
+            <h5 className="text-success fw-bold mt-2">Knowledge You Can Trust</h5>
             <p className="text-white">Backed by science, shared with love.</p>
           </div>
           <div className="col-md-4 mb-4">
             <div className="fs-1">🤝</div>
-            <h4 className="text-success fw-bold mt-2">Community-Driven</h4>
+            <h5 className="text-success fw-bold mt-2">Community-Driven</h5>
             <p className="text-white">Grow alongside fellow plant enthusiasts.</p>
           </div>
         </div>
