@@ -11,6 +11,9 @@ import Contact from './components/contact/Contact'
 import CatalogMain from './components/catalog/CatalogMain'
 import { Element } from 'react-scroll'
 import { useState, useEffect } from 'react'
+import './index.css'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 
 export default function App() {
     const [auth, setAuth] = useState({ authenticated: false, username: '' });
