@@ -7,10 +7,10 @@ const SpotlightText = () => {
   return (
     <div className="py-5 text-white spotlight-section">
       <div className="container">
-        <h2 className="text-success text-center mb-4 fw-bold titles">
+        <h2 className="text-success text-center mt-5 mb-4 fw-bold titles">
           🌿 INTERACTIVE SPOTLIGHT
         </h2>
-        <p className="text-center mb-5">
+        <p className="text-center mb-5" style={{fontSize:'1.4rem'}}>
           Dive deeper into this week’s featured topic. Toggle between plant
           care, uses, and quick facts.
         </p>
@@ -18,17 +18,17 @@ const SpotlightText = () => {
         <Tab.Container activeKey={activeKey} onSelect={(k) => setActiveKey(k)}>
           <Nav variant="pills" className="justify-content-center fw-bold mb-4">
             <Nav.Item>
-              <Nav.Link eventKey="plant" className="text-success fw-bold">
+              <Nav.Link eventKey="plant" className="text-success fw-bold" style={{fontSize:'1.5rem'}}>
                 Plant Details
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="uses" className="text-success fw-bold">
+              <Nav.Link eventKey="uses" className="text-success fw-bold" style={{fontSize:'1.5rem'}}>
                 Uses & Benefits
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
-              <Nav.Link eventKey="facts" className="text-success fw-bold">
+              <Nav.Link eventKey="facts" className="text-success fw-bold" style={{fontSize:'1.5rem'}}>
                 Quick Facts
               </Nav.Link>
             </Nav.Item>
@@ -36,8 +36,8 @@ const SpotlightText = () => {
 
           <Tab.Content className="bg-dark p-4 rounded shadow text-start border border-success">
             <Tab.Pane eventKey="plant">
-              <h4 className="text-success fw-bold">🌼 Spotlight: Lavender</h4>
-              <p>
+              <h4 className="text-success fw-bold" style={{fontSize:'1.4rem'}}>🌼 Spotlight: Lavender</h4>
+              <p style={{fontSize:'1.2rem'}}>
                 Lavender is a fragrant herb known for its calming scent and
                 stunning purple flowers. It thrives in full sun and well-drained
                 soil. Water sparingly and prune regularly to keep it bushy.
@@ -74,8 +74,8 @@ const SpotlightText = () => {
                 }}
               >
                 <div>
-                  <h4 className="text-success fw-bold">🌿 How to Use Lavender</h4>
-                  <ul>
+                  <h4 className="text-success fw-bold" style={{fontSize:'1.4rem'}}>🌿 How to Use Lavender</h4>
+                  <ul style={{fontSize:'1.2rem'}}>
                     <li>Make calming teas or infusions</li>
                     <li>Use dried lavender in sachets for closets</li>
                     <li>Apply essential oils for stress relief</li>
@@ -94,8 +94,8 @@ const SpotlightText = () => {
             <Tab.Pane eventKey="facts">
               <div className="d-flex justify-content-around align-items-center sm_spotlight">
                 <div>
-                  <h4 className="text-success fw-bold">📌 Fast Facts</h4>
-                  <ul>
+                  <h4 className="text-success fw-bold" style={{fontSize:'1.4rem'}}>📌 Fast Facts</h4>
+                  <ul style={{fontSize:'1.2rem'}}>
                     <li>
                       <strong>Scientific Name:</strong> Lavandula
                     </li>
