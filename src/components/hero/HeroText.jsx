@@ -4,10 +4,10 @@ import Typewriter from 'typewriter-effect';
 function HeroSection() {
   return (
     <div className="container-fluid py-5 min-vh-100 d-flex text-left hero-section">
-      <div className="p-3 hero-container">
+      <div className="p-5 hero-container">
         <div className='row'>
             <div className='col-md-10'>
-        <h4 className="fw-bold mb-4 mt-3text-success typewriter-h4" style={{fontSize:'3rem'}}>
+        <h4 className="fw-bold mb-4 mt-3 text-success typewriter-h4" style={{fontSize:'3rem'}}>
           <Typewriter
             options={{
               strings: [

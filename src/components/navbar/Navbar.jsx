@@ -52,7 +52,7 @@ const Navbar = () => {
           id="navbarNavDropdown"
         >
           <ul
-            className="navbar-nav mx-auto gap-2 py-4 px-3 d-flex justify-content-center align-items-center"
+            className="navbar-nav mx-auto gap-2 py-3 px-2 d-flex justify-content-center align-items-center"
             style={{
               border: "1px solid white",
               borderRadius: "20px",
