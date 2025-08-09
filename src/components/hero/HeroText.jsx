@@ -22,7 +22,7 @@ function HeroSection() {
             }}
           />
         </h4>
-        <p className="lead mb-4 typewriter-text" style={{width: '70%', fontSize:'1.8rem'}}>
+        <p className="lead mb-5 typewriter-text" style={{width: '70%', fontSize:'1.8rem'}}>
           Discover expert gardening tips, sustainable practices, and everything you need to build a thriving green space.
         </p>
         <div className='d-flex gap-3 mb-4'>

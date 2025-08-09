@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top w-100">
-      <div className="container-fluid d-flex justify-content-between align-items-center">
+      <div className="container-fluid d-flex justify-content-around align-items-center">
         <div
           className="navbar-brand fw-bolder text-success responsive-text navbar-title_sm"
           style={{
