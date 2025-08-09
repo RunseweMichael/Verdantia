@@ -10,7 +10,7 @@ export default function Contact() {
                     <form action={'#'} method={'POST'} className='form needs-validation' noValidate>
                         <div class="form-floating mb-4">
                             <input type="text" class="form-control text-secondary" id="floatingInpu1t" required/>
-                            <label for="floatingInput1" className="text-dark">Full-Name</label>
+                            <label for="floatingInput1" className="text-dark" style={{fontSize:'1.2rem'}}>Full-Name</label>
                             <div class="valid-feedback">
                               Looks good!
                             </div>
@@ -21,7 +21,7 @@ export default function Contact() {
 
                         <div class="form-floating mb-4">
                             <input type="number" class="form-control text-secondary" id="floatingInput2" required/>
-                            <label for="floatingInput2" className="text-dark">Phone Number</label>
+                            <label for="floatingInput2" className="text-dark" style={{fontSize:'1.2rem'}}>Phone Number</label>
                             <div class="valid-feedback">
                               Looks good!
                             </div>
@@ -32,7 +32,7 @@ export default function Contact() {
 
                         <div class="form-floating mb-4">
                             <input type="email" class="form-control" id="floatingInput" required />
-                            <label for="floatingInput" className="text-dark text-lg">Email Address</label>
+                            <label for="floatingInput" className="text-dark text-lg" style={{fontSize:'1.2rem'}}>Email Address</label>
                             <div class="valid-feedback">
                               Looks good!
                             </div>
@@ -43,7 +43,7 @@ export default function Contact() {
 
                         <div class="form-floating mb-4">
                             <textarea class="form-control" id="floatingTextarea2" style={{height: 150}} required></textarea>
-                            <label for="floatingTextarea2" className="text-dark">Comments</label>
+                            <label for="floatingTextarea2" className="text-dark" style={{fontSize:'1.2rem'}}>Comments</label>
                             <div class="valid-feedback">
                               Looks good!
                             </div>
