@@ -28,7 +28,7 @@ const Navbar = () => {
           className="navbar-brand fw-bolder text-success responsive-text navbar-title_sm"
           style={{
             backgroundColor: "transparent",
-            fontSize: "2.5rem",
+            fontSize: "2rem",
             fontFamily: "cursive",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
           }}
@@ -52,7 +52,7 @@ const Navbar = () => {
           id="navbarNavDropdown"
         >
           <ul
-            className="navbar-nav mx-auto gap-2 py-3 px-2 d-flex justify-content-center align-items-center"
+            className="navbar-nav mx-auto gap-2 py-4 px-3 d-flex justify-content-center align-items-center"
             style={{
               border: "1px solid white",
               borderRadius: "20px",
@@ -62,37 +62,37 @@ const Navbar = () => {
             }}
           >
             <li className="nav-item">
-              <Link to='home' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='home' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.2rem'}}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='catalog' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='catalog' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.2rem'}}>
                 Catalog
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='about' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='about' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.2rem'}}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='highlights' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='highlights' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.2rem'}}>
                 Highlights
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='spotlight' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='spotlight' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.2rem'}}>
                 Spotlight
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='showcase' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='showcase' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.2rem'}}>
                 Showcase
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='contact' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='contact' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.2rem'}}>
                 Contact
               </Link>
             </li>
