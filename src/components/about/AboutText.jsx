@@ -13,19 +13,19 @@ const AboutText = () => {
         <p className="text-white" style={{fontSize: '1.5rem'}}>
           Our <strong className="text-success fw-bold">Mission</strong> is to empower gardeners of all levels with practical tips, expert insights, and a welcoming community. From windowsill herbs to full landscape projects, we’re here to support your journey.
         </p>
-        <p className="mb-5 text-success" style={{fontSize: '1.8rem'}}>
+        <p className="mb-5 text-success" style={{fontSize: '1.7rem'}}>
           <strong>Let’s grow something amazing — together. 🌱</strong>
         </p>
 
         <div className="row">
           <div className="col-md-4 mb-4">
             <div className="fs-1">🌍</div>
-            <h4 className="text-success fw-bold mt-2">Sustainability First</h4>
-            <p className="text-white">Eco-friendly techniques for long-term growth.</p>
+            <h4 className="text-success fw-bold mt-2" style={{fontSize:'1.7rem'}}>Sustainability First</h4>
+            <p className="text-white" style={{fontSize:'1.5rem'}}>Eco-friendly techniques for long-term growth.</p>
           </div>
           <div className="col-md-4 mb-4">
             <div className="fs-1">📚</div>
-            <h4 className="text-success fw-bold mt-2">Knowledge You Can Trust</h4>
+            <h4 className="text-success fw-bold mt-2" style={{fontSize:'1.6rem'}}>Knowledge You Can Trust</h4>
             <p className="text-white">Backed by science, shared with love.</p>
           </div>
           <div className="col-md-4 mb-4">

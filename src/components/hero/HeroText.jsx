@@ -26,10 +26,10 @@ function HeroSection() {
           Discover expert gardening tips, sustainable practices, and everything you need to build a thriving green space.
         </p>
         <div className='d-flex gap-3 mb-4'>
-        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.8rem'}}>
+        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.6rem'}}>
           Browse Plants
         </a>
-        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.8rem'}}>
+        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.6rem'}}>
           Join the Community
         </a>
         </div>
