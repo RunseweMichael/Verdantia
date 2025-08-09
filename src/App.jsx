@@ -1,5 +1,4 @@
 import React from 'react'
-import Home from './components/homepage/Home'
 import HeroMain from './components/hero/HeroMain'
 import AboutMain from './components/about/AboutMain'
 import HighlightsMain from './components/highlights/HighlightsMain'
@@ -39,7 +38,6 @@ export default function App() {
   return (
     <div>
       <Navbar />
-      <Home />
       <Element name='home'><HeroMain /></Element>
       <Element name='catalog'><CatalogMain /></Element>
       <Element name='about'><AboutMain /></Element>
