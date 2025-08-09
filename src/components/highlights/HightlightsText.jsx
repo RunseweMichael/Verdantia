@@ -5,7 +5,7 @@ const HighlightsText = () => {
     <div className="py-5 bg-dark">
       <div className="container text-center">
         <h2 className="mb-4 mt-5 text-success fw-bold titles">🌟 FEATURED HIGHLIGHTS</h2>
-        <p className="text-white mb-5" style={{fontSize:'1.5rem'}}>
+        <p className="text-white mb-5 explore" style={{fontSize:'1.5rem'}}>
           Explore the latest guides, seasonal tips, and plant picks curated just
           for you.
         </p>
@@ -190,7 +190,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingOne">
               <button
-                className="accordion-button bg-success text-white fw-bold"
+                className="accordion-button bg-success text-white fw-bold accordion-text"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -207,7 +207,7 @@ const HighlightsText = () => {
               aria-labelledby="headingOne"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
+              <div className="accordion-body text-start accordion-p" style={{fontSize:'1.2rem'}}>
                 If you're new to gardening, the best way to begin is to start
                 small and manageable. Container gardening and raised beds offer
                 an ideal introduction because they require less space, are
@@ -220,7 +220,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingTwo">
               <button
-                className="accordion-button collapsed bg-success text-white fw-bold"
+                className="accordion-button collapsed bg-success text-white fw-bold accordion-text"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -237,7 +237,7 @@ const HighlightsText = () => {
               aria-labelledby="headingTwo"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
+              <div className="accordion-body text-start accordion-p" style={{fontSize:'1.2rem'}}>
                 - Controlled Environment: You control the soil type, drainage,
                 and spacing — reducing risks of disease and weeds. <br />
                 - Less Physical Strain: Raised beds reduce the need to bend
@@ -251,7 +251,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingThree">
               <button
-                className="accordion-button collapsed bg-success text-white fw-bold"
+                className="accordion-button collapsed bg-success text-white fw-bold accordion-text"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -268,12 +268,12 @@ const HighlightsText = () => {
               aria-labelledby="headingThree"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start">
+              <div className="accordion-body text-start accordion-p">
                 <p style={{fontSize:'1.2rem'}}>
                   Choose easy-to-grow plants that are forgiving and quick to
                   reward:
                 </p>
-                <ul style={{fontSize:'1.1rem'}}>
+                <ul className="accordion-ul" style={{fontSize:'1.1rem'}}>
                   <li>
                     Tomatoes – especially cherry varieties; they grow well in
                     pots and produce quickly.
@@ -297,7 +297,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingFour">
               <button
-                className="accordion-button collapsed bg-success text-white fw-bold"
+                className="accordion-button collapsed bg-success text-white fw-bold accordion-text"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
@@ -314,7 +314,7 @@ const HighlightsText = () => {
               aria-labelledby="headingFour"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
+              <div className="accordion-body text-start accordion-p" style={{fontSize:'1.2rem'}}>
                 Use compost, avoid synthetic pesticides, plant native species,
                 and conserve water through drip irrigation and mulching.
               </div>
@@ -324,7 +324,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingFive">
               <button
-                className="accordion-button collapsed bg-success text-white fw-bold"
+                className="accordion-button collapsed bg-success text-white fw-bold accordion-text"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
@@ -341,7 +341,7 @@ const HighlightsText = () => {
               aria-labelledby="headingFive"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
+              <div className="accordion-body text-start accordion-p" style={{fontSize:'1.2rem'}}>
                 Essentials include a hand trowel, pruning shears, gloves,
                 watering can, and a garden fork. As your garden grows, add more
                 based on your needs.
@@ -352,7 +352,7 @@ const HighlightsText = () => {
           <div className="accordion-item bg-dark text-white">
             <h2 className="accordion-header" id="headingSix">
               <button
-                className="accordion-button collapsed bg-success text-white fw-bold"
+                className="accordion-button collapsed bg-success text-white fw-bold accordion-text"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSix"
@@ -369,7 +369,7 @@ const HighlightsText = () => {
               aria-labelledby="headingSix"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
+              <div className="accordion-body text-start accordion-p" style={{fontSize:'1.2rem'}}>
                 Resist the urge to grow everything at once. Start with a few
                 plants, observe how they grow, and learn from the experience.
                 This foundational success will build your confidence for larger

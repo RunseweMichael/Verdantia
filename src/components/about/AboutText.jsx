@@ -21,17 +21,17 @@ const AboutText = () => {
           <div className="col-md-4 mb-4">
             <div className="fs-1">🌍</div>
             <h4 className="text-success fw-bold mt-2 about-head" style={{fontSize:'1.6rem'}}>Sustainability First</h4>
-            <p className="text-white" style={{fontSize:'1.4rem'}}>Eco-friendly techniques for long-term growth.</p>
+            <p className="text-white about-desc" style={{fontSize:'1.4rem'}}>Eco-friendly techniques for long-term growth.</p>
           </div>
           <div className="col-md-4 mb-4">
             <div className="fs-1">📚</div>
             <h4 className="text-success fw-bold mt-2 about-head" style={{fontSize:'1.6rem'}}>Knowledge You Can Trust</h4>
-            <p className="text-white" style={{fontSize:'1.4rem'}}>Backed by science, shared with love.</p>
+            <p className="text-white about-desc" style={{fontSize:'1.4rem'}}>Backed by science, shared with love.</p>
           </div>
           <div className="col-md-4 mb-4">
             <div className="fs-1">🤝</div>
             <h4 className="text-success fw-bold mt-2 about-head" style={{fontSize:'1.6rem'}}>Community-Driven</h4>
-            <p className="text-white" style={{fontSize:'1.4rem'}}>Grow alongside fellow plant enthusiasts.</p>
+            <p className="text-white about-desc" style={{fontSize:'1.4rem'}}>Grow alongside fellow plant enthusiasts.</p>
           </div>
         </div>
       </div>

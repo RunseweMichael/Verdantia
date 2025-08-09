@@ -136,8 +136,14 @@ body, html{
     width: 100%;
     }
 
+    .nav-con{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .navbar-title-sm{
-        font-size: 1.8rem !important;
+        font-size: 1.3rem !important;
     }
 
     .typewriter-text {
@@ -168,62 +174,70 @@ body, html{
 
     .titles{
         font-size: 1.8rem !important;
-        margin-top: -20px;
+        margin-top: -40px;
     }
 
     .about{
-    font-size: 1.2rem !important;
+    font-size: 1.1rem !important;
     }
 
     .about-grow{
-        font-size: 1.3rem !important;
+        font-size: 1.2rem !important;
     }
 
     .about-head{
         font-size: 1.3rem !important;
     }
 
+    .about-desc{
+        font-size: 1.1rem !important;
+    }
 
- .responsive-text{
-    font-size: 1rem !important;
-}
-    
+    .explore{
+        font-size: 1.3rem !important;
+    }
+
+    .accordion-text{
+        font-size: 1.2rem !important;
+    }
+
+    .accordion-p{
+        font-size: 1rem !important;
+    }
+
+    .accordion-ul{
+        font-size: 0.8rem !important;
+    }
+
+    .spotlight{
+        font-size: 1.4rem !important;
+    }
+
+    .spotlight-text{
+        font-size: 1rem !important;
+    }
+
+    .spotlight-section{
+        background-image: url('/spotlightImg/img1.jpg');
+    }
+
+    .sm_spotlight{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sm_spotlight_img{
+        width: 100vw !important;
+    }
+
+    .contactContainer{
+        background-image: url('/contactImg/img2.jpg');
+    }
+
 
 
 .typewriter-h4 {
     font-size: 1.3rem !important;
     text-align: center;
-}
-
-
-
-
-
-
-
-
-
-.spotlight-section{
-    background-image: url('/spotlightImg/img1.jpg');
-}
-
-/* .titles{
-    font-size: 1.3rem !important;
-} */
-
-
-.sm_spotlight{
-    display: flex;
-    flex-direction: column;
-}
-
-.sm_spotlight_img{
-    width: 100vw !important;
-}
-
-
-.contactContainer{
-    background-image: url('/contactImg/img2.jpg');
-    
 }
 }
