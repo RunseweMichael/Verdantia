@@ -43,12 +43,12 @@ const Showcase = () => {
   return (
     <div className="py-5 bg-dark text-white">
       <div className="container">
-        <h2 className="text-success fw-bold text-center pb-4 titles">🌍 Community Showcase</h2>
-        <p className="text-center mb-5">
+        <h2 className="text-success fw-bold text-center mt-5 pb-4 titles">🌍 Community Showcase</h2>
+        <p className="text-center mb-5" style={{fontSize:'1.5rem'}}>
           See how plant lovers across Africa are cultivating beauty and sustainability in their own spaces.
         </p>
 
-        <div className="row g-4">
+        <div className="row g-5">
           {showcases.map((item, index) => (
             <div className="col-md-4" key={index}>
               <div
@@ -62,9 +62,9 @@ const Showcase = () => {
                   style={{ borderTopLeftRadius: "20px", borderTopRightRadius: "20px" }}
                 />
                 <div className="card-body text-start">
-                  <h5 className="card-title text-success fw-bold">{item.name}</h5>
-                  <p className="card-subtitle text-muted mb-2">{item.location}</p>
-                  <p className="card-text text-white">{item.caption}</p>
+                  <h3 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>{item.name}</h3>
+                  <p className="card-subtitle text-white mb-2" style={{fontSize:'1.4rem'}}>{item.location}</p>
+                  <p className="card-text text-white" style={{fontSize:'1.3rem'}}>{item.caption}</p>
                 </div>
               </div>
             </div>
@@ -72,7 +72,7 @@ const Showcase = () => {
         </div>
 
         <div className="text-center mt-5">
-          <a href="/community/submit" className="btn btn-outline-success fw-bold">
+          <a href="/community/submit" className="btn btn-outline-success fw-bold" style={{fontSize:'1.5rem'}}>
             🌱 Submit Your Garden
           </a>
         </div>

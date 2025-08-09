@@ -43,7 +43,7 @@ const HighlightsText = () => {
           <div className="col-md-4 cards">
             <div
               className="card h-100 bg-dark border-0 shadow-sm"
-              style={{ borderRadius: "21px" }}
+              style={{ borderRadius: "21px", gap: "10px" }}
             >
               <img
                 src="/aboutusImg/about2.jpg"
