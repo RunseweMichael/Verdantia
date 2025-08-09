@@ -5,9 +5,9 @@ const SpotlightText = () => {
   const [activeKey, setActiveKey] = useState("plant");
 
   return (
-    <div className="py-4 text-white spotlight-section">
+    <div className="py-5 text-white spotlight-section">
       <div className="container">
-        <h2 className="text-success text-center pt-4 mb-4 fw-bold titles">
+        <h2 className="text-success text-center pt-5 mb-4 fw-bold titles">
           🌿 INTERACTIVE SPOTLIGHT
         </h2>
         <p className="text-center mb-5 explore" style={{fontSize:'1.5rem'}}>

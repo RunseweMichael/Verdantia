@@ -41,9 +41,9 @@ const Showcase = () => {
   ];
 
   return (
-    <div className="py-4 bg-dark text-white">
+    <div className="py-5 bg-dark text-white">
       <div className="container">
-        <h2 className="text-success fw-bold text-center pt-4 pb-4 titles">🌍 COMMUNITY SHOWCASE</h2>
+        <h2 className="text-success fw-bold text-center pt-5 pb-4 titles">🌍 COMMUNITY SHOWCASE</h2>
         <p className="text-center mb-5 explore" style={{fontSize:'1.5rem'}}>
           See how plant lovers across Africa are cultivating beauty and sustainability in their own spaces.
         </p>

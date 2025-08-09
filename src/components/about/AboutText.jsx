@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutText = () => {
   return (
-    <div className="text-center p-3" style={{backgroundImage:'url(/aboutusImg/about1.jpg)', backgroundSize:'cover', backgroundPosition:'center', backgroundRepeat:'no-repeat'}}>
+    <div className="text-center p-3 py-5" style={{backgroundImage:'url(/aboutusImg/about1.jpg)', backgroundSize:'cover', backgroundPosition:'center', backgroundRepeat:'no-repeat'}}>
       <div className="container-fluid">
         <h2 className="mb-4 pt-5 text-success fw-bold titles">
           🌿 ABOUT US – GROWING WITH PASSION
