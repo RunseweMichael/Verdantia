@@ -6,7 +6,7 @@ export default function Contact() {
         <div className='container'>
             <div className='row'>
                 <div class='col-sm-8 mx-auto mt-3 pt-2 pb-5 justify-content-center align-items-center text-shadow-none'>
-                  <h2 className='text-success fw-bold text-center titles py-3'>📞 CONTACT US</h2>
+                  <h2 className='text-success fw-bold text-center titles py-3 mt-5'>📞 CONTACT US</h2>
                     <form action={'#'} method={'POST'} className='form needs-validation' noValidate>
                         <div class="form-floating mb-4">
                             <input type="text" class="form-control text-secondary" id="floatingInpu1t" required/>
@@ -52,7 +52,7 @@ export default function Contact() {
                             </div>
                         </div>
                         <div class="d-grid gap-2">
-                        <button type="submit" className="btn  btn-outline-success btn-lg fw-bolder" style={{backdropFilter: 'blur(30px)'}}>SUBMIT</button>
+                        <button type="submit" className="btn  btn-outline-success btn-lg fw-bolder" style={{backdropFilter: 'blur(30px)', fontSize:'1.5rem'}}>SUBMIT</button>
                         </div>
                     </form>
                 </div>
