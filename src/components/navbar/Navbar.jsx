@@ -62,44 +62,44 @@ const Navbar = () => {
             }}
           >
             <li className="nav-item">
-              <Link to='home' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='home' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.5rem'}}>
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='catalog' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='catalog' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.5rem'}}>
                 Catalog
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='about' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='about' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.5rem'}}>
                 About
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='highlights' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='highlights' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.5rem'}}>
                 Highlights
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='spotlight' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='spotlight' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.5rem'}}>
                 Spotlight
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='showcase' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='showcase' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.5rem'}}>
                 Showcase
               </Link>
             </li>
             <li className="nav-item">
-              <Link to='contact' smooth={true} duration={500} className="nav-div text-white nav-link">
+              <Link to='contact' smooth={true} duration={500} className="nav-div text-white nav-link" style={{fontSize:'1.5rem'}}>
                 Contact
               </Link>
             </li>
             <button
               type="button"
               className="btn btn-outline-danger d-inline d-sm-none fw-bold"
-              style={{ backdropFilter: "blur(20px)", fontSize: "1.8rem" }}
+              style={{ backdropFilter: "blur(20px)"}}
               onClick={handleLogout}
             >
               Logout
@@ -108,7 +108,7 @@ const Navbar = () => {
           <button
             type="button"
             className="btn btn-outline-danger d-none d-lg-inline ms-4 fw-bold"
-            style={{ backdropFilter: "blur(20px)" }}
+            style={{ backdropFilter: "blur(20px)", fontSize: "1.5rem" }}
              onClick={handleLogout}
           >
             Logout
