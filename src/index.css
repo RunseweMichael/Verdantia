@@ -136,9 +136,35 @@ body, html{
         font-size: 1.5rem !important;
     }
 
-    .nav-link{
-        padding: 3px !important;
+    .typewriter-text {
+    font-size: 1.3rem !important;
+    text-align: center;
+    width: 100vw;
+    margin: 20px auto;
     }
+
+    .hero-btn{
+    font-size: 1rem !important;
+    padding: 10px !important;
+    margin-top: 10px !important;
+    }
+
+    .what{
+        font-size: 1.5rem !important;
+    }
+
+    .home-list{
+    margin-top: 20px !important;
+    }
+
+    .list-link{
+    margin-left: 20px !important;
+    font-size: 1rem !important;
+    }
+}
+
+
+
  .responsive-text{
     font-size: 1rem !important;
 }
@@ -157,26 +183,13 @@ body, html{
     text-align: center;
 }
 
-.typewriter-text {
-    font-size: 1rem !important;
-    text-align: center;
-    width: 100vw;
-    margin: 20px auto;
-}
 
-.hero-btn{
-    font-size: 1rem !important;
-    padding: 10px !important;
-    /* margin-top: 20px !important; */
-}
 
-.home-list{
-    margin-top: 20px !important;
-}
 
-.list-link{
-    margin-left: 20px !important;
-}
+
+
+
+
 
 .spotlight-section{
     background-image: url('/spotlightImg/img1.jpg');

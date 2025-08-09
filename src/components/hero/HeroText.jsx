@@ -33,7 +33,7 @@ function HeroSection() {
           Join the Community
         </a>
         </div>
-        <h4 className='mt-5 text-success fw-bold' style={{fontSize:'2rem'}}>What We Offer:</h4>
+        <h4 className='mt-5 text-success fw-bold what' style={{fontSize:'2rem'}}>What We Offer:</h4>
         <ul className="list-unstyled mt-2 home-list">
           <li className="mb-2 list-link" style={{fontSize:'1.4rem'}}>🌼 Personalized planting guides</li>
           <li className="mb-2 list-link" style={{fontSize:'1.4rem'}}>🌞 Sustainable gardening tips</li>
