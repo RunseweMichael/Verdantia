@@ -22,22 +22,22 @@ function HeroSection() {
             }}
           />
         </h4>
-        <p className="lead mb-4 typewriter-text" style={{width: '70%', fontSize:'2rem'}}>
+        <p className="lead mb-4 typewriter-text" style={{width: '70%', fontSize:'1.8rem'}}>
           Discover expert gardening tips, sustainable practices, and everything you need to build a thriving green space.
         </p>
         <div className='d-flex gap-3 mb-4'>
-        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.5rem'}}>
+        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.8rem'}}>
           Browse Plants
         </a>
-        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.5rem'}}>
+        <a href="#get-started" className="btn btn-outline-success btn-lg text-white fw-bold hero-btn" style={{fontSize:'1.8rem'}}>
           Join the Community
         </a>
         </div>
         <h4 className='mt-5 text-success fw-bold' style={{fontSize:'2rem'}}>What We Offer:</h4>
         <ul className="list-unstyled mt-2 home-list">
-          <li className="mb-2 list-link fs-3">🌼 Personalized planting guides</li>
-          <li className="mb-2 list-link fs-3">🌞 Sustainable gardening tips</li>
-          <li className="mb-2 list-link fs-3">💧 Water-wise planning</li>
+          <li className="mb-2 list-link fs-2">🌼 Personalized planting guides</li>
+          <li className="mb-2 list-link fs-2">🌞 Sustainable gardening tips</li>
+          <li className="mb-2 list-link fs-2">💧 Water-wise planning</li>
         </ul>
         </div>
 
