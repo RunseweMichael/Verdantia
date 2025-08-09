@@ -32,21 +32,21 @@ const Navbar = () => {
   }, []);
 
   const handleLogout = async () => {
-    try {
-      const response = await fetch("http://127.0.0.1:8000/logout/", {
-        method: "POST",
-        credentials: "include",
-      });
+  try {
+    const response = await fetch(`${process.env.REACT_APP_API_BASE}/logout/`, {
+      method: "POST",
+      credentials: "include",
+    });
 
-      if (response.ok) {
-        window.location.href = "/";
-      } else {
-        console.error("Logout failed");
-      }
-    } catch (error) {
-      console.error("Error during logout:", error);
+    if (response.ok) {
+      window.location.href = "/";
+    } else {
+      console.error("Logout failed");
     }
-  };
+  } catch (error) {
+    console.error("Error during logout:", error);
+  }
+};
 
   return (
     <nav className="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top w-100">
