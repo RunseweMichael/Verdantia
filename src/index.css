@@ -79,6 +79,7 @@ body, html{
   position: relative;
   display: inline-block;
   transition: transform 0.2s ease, border-bottom 0.2s ease;
+  font-size: 1.2rem;
 }
 
 .nav-link:hover {

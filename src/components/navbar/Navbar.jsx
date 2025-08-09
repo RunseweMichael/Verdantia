@@ -28,7 +28,7 @@ const Navbar = () => {
           className="navbar-brand fw-bolder text-success responsive-text navbar-title_sm"
           style={{
             backgroundColor: "transparent",
-            fontSize: "1.5rem",
+            fontSize: "2.5rem",
             fontFamily: "cursive",
             textShadow: "2px 2px 4px rgba(0, 0, 0, 0.5)",
           }}
@@ -99,7 +99,7 @@ const Navbar = () => {
             <button
               type="button"
               className="btn btn-outline-danger d-inline d-sm-none fw-bold"
-              style={{ backdropFilter: "blur(20px)" }}
+              style={{ backdropFilter: "blur(20px)", fontSize: "1.2rem" }}
               onClick={handleLogout}
             >
               Logout
