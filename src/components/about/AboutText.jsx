@@ -7,13 +7,13 @@ const AboutText = () => {
         <h2 className="mb-4 mt-5 text-success fw-bold titles">
           🌿 ABOUT US – GROWING WITH PASSION
         </h2>
-        <p className="lead text-white about">
+        <p className="lead text-white about" style={{fontSize: '1.5rem'}}>
           At <strong className="text-success fw-bold">Verdantia,</strong> we believe gardening is more than a hobby — it's a <strong className='text-success fw-bold'>connection to nature,</strong> a way to <strong className='text-success fw-bold'>nurture life,</strong> and a chance to <strong className='text-success fw-bold'>create something beautiful.</strong>
         </p>
-        <p className="text-white">
+        <p className="text-white about" style={{fontSize: '1.5rem'}}>
           Our <strong className="text-success fw-bold">Mission</strong> is to empower gardeners of all levels with practical tips, expert insights, and a welcoming community. From windowsill herbs to full landscape projects, we’re here to support your journey.
         </p>
-        <p className="mb-5 text-success" style={{fontSize: '1.7rem'}}>
+        <p className="mb-5 text-success about-grow" style={{fontSize: '1.7rem'}}>
           <strong>Let’s grow something amazing — together. 🌱</strong>
         </p>
 
