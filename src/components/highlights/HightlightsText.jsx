@@ -2,7 +2,7 @@ import React from "react";
 
 const HighlightsText = () => {
   return (
-    <div className="py-5 bg-dark">
+    <div className="bg-dark">
       <div className="container text-center">
         <h2 className="mb-4 mt-5 text-success fw-bold titles">🌟 FEATURED HIGHLIGHTS</h2>
         <p className="text-white mb-5 explore" style={{fontSize:'1.5rem'}}>
@@ -22,10 +22,10 @@ const HighlightsText = () => {
                 alt="Plant of the Month"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.4rem'}}>
+                <h5 className="card-title text-success fw-bold highlight-head" style={{fontSize:'1.4rem'}}>
                   🌼 Plant of the Month
                 </h5>
-                <p className="card-text text-white" style={{fontSize:'1.2rem'}}>
+                <p className="card-text text-white highlight-text" style={{fontSize:'1.1rem'}}>
                   Discover care tips, sunlight needs, and growth patterns for
                   this month’s star plant.
                 </p>
@@ -51,10 +51,10 @@ const HighlightsText = () => {
                 alt="Seasonal Tips"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.4rem'}}>
+                <h5 className="card-title text-success fw-bold highlight-head" style={{fontSize:'1.4rem'}}>
                   📅 August Gardening Tips
                 </h5>
-                <p className="card-text text-white" style={{fontSize:'1.2rem'}}>
+                <p className="card-text text-white highlight-text" style={{fontSize:'1.1rem'}}>
                   Know what to plant, prune, and harvest this month for a
                   thriving garden.
                 </p>
@@ -80,10 +80,10 @@ const HighlightsText = () => {
                 alt="Latest Blog Post"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.4rem'}}>
+                <h5 className="card-title text-success fw-bold highlight-head" style={{fontSize:'1.4rem'}}>
                   📝 Latest from the Blog
                 </h5>
-                <p className="card-text text-white" style={{fontSize:'1.2rem'}}>
+                <p className="card-text text-white highlight-text" style={{fontSize:'1.1rem'}}>
                   “5 Common Garden Mistakes (and How to Avoid Them)” — our
                   newest must-read!
                 </p>
@@ -109,10 +109,10 @@ const HighlightsText = () => {
                 alt="Toolbox"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.4rem'}}>
+                <h5 className="card-title text-success fw-bold highlight-head" style={{fontSize:'1.4rem'}}>
                   🧰 Garden Planner Tool
                 </h5>
-                <p className="card-text text-white" style={{fontSize:'1.2rem'}}>
+                <p className="card-text text-white highlight-text" style={{fontSize:'1.1rem'}}>
                   Plan your garden layout, track planting dates, and manage your
                   green space efficiently.
                 </p>
@@ -138,10 +138,10 @@ const HighlightsText = () => {
                 alt="DIY Garden Project"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.4rem'}}>
+                <h5 className="card-title text-success fw-bold highlight-head" style={{fontSize:'1.4rem'}}>
                   🛠️ DIY Garden Project
                 </h5>
-                <p className="card-text text-white" style={{fontSize:'1.2rem'}}>
+                <p className="card-text text-white highlight-text" style={{fontSize:'1.1rem'}}>
                   Learn how to build a simple raised garden bed using recycled
                   wood — perfect for veggies!
                 </p>
@@ -167,10 +167,10 @@ const HighlightsText = () => {
                 alt="Herb Spotlight"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.4rem'}}>
+                <h5 className="card-title text-success fw-bold highlight-head" style={{fontSize:'1.4rem'}}>
                   🌿 Herb Spotlight: Amaranthus
                 </h5>
-                <p className="card-text text-white" style={{fontSize:'1.2rem'}}>
+                <p className="card-text text-white highlight-text" style={{fontSize:'1.1rem'}}>
                   Discover how to grow, harvest, and use fresh amaranthus in
                   your cooking and herbal remedies.
                 </p>
