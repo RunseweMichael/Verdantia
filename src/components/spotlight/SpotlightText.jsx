@@ -36,7 +36,7 @@ const SpotlightText = () => {
 
           <Tab.Content className="bg-dark p-4 rounded shadow text-start border border-success">
             <Tab.Pane eventKey="plant">
-              <h4 className="text-success fw-bold" style={{fontSize:'1.6rem'}}>🌼 Spotlight: Lavender</h4>
+              <h4 className="text-success fw-bold" style={{fontSize:'1.7rem'}}>🌼 Spotlight: Lavender</h4>
               <p style={{fontSize:'1.3rem'}}>
                 Lavender is a fragrant herb known for its calming scent and
                 stunning purple flowers. It thrives in full sun and well-drained
@@ -74,7 +74,7 @@ const SpotlightText = () => {
                 }}
               >
                 <div>
-                  <h4 className="text-success fw-bold" style={{fontSize:'1.6rem'}}>🌿 How to Use Lavender</h4>
+                  <h4 className="text-success fw-bold" style={{fontSize:'1.7rem'}}>🌿 How to Use Lavender</h4>
                   <ul style={{fontSize:'1.3rem'}}>
                     <li>Make calming teas or infusions</li>
                     <li>Use dried lavender in sachets for closets</li>
@@ -94,7 +94,7 @@ const SpotlightText = () => {
             <Tab.Pane eventKey="facts">
               <div className="d-flex justify-content-around align-items-center sm_spotlight">
                 <div>
-                  <h4 className="text-success fw-bold" style={{fontSize:'1.6rem'}}>📌 Fast Facts</h4>
+                  <h4 className="text-success fw-bold" style={{fontSize:'1.7rem'}}>📌 Fast Facts</h4>
                   <ul style={{fontSize:'1.3rem'}}>
                     <li>
                       <strong>Scientific Name:</strong> Lavandula

@@ -63,8 +63,8 @@ const Showcase = () => {
                 />
                 <div className="card-body text-start">
                   <h3 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>{item.name}</h3>
-                  <p className="card-subtitle mb-2" style={{fontSize:'1.3rem', color:'lightgray'}}>{item.location}</p>
-                  <p className="card-text text-white" style={{fontSize:'1.2rem'}}>{item.caption}</p>
+                  <p className="card-subtitle mb-2" style={{fontSize:'1.1rem', color:'lightgray'}}>{item.location}</p>
+                  <p className="card-text text-white" style={{fontSize:'1rem'}}>{item.caption}</p>
                 </div>
               </div>
             </div>
