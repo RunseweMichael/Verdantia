@@ -99,7 +99,7 @@ const Navbar = () => {
             <button
               type="button"
               className="btn btn-outline-danger d-inline d-sm-none fw-bold"
-              style={{ backdropFilter: "blur(20px)", fontSize: "1.2rem" }}
+              style={{ backdropFilter: "blur(20px)", fontSize: "1.8rem" }}
               onClick={handleLogout}
             >
               Logout
