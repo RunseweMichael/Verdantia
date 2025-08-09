@@ -2,9 +2,9 @@ import React from "react";
 
 const HighlightsText = () => {
   return (
-    <div className="bg-dark">
+    <div className=" py-3 bg-dark">
       <div className="container text-center">
-        <h2 className="mb-4 mt-5 text-success fw-bold titles">🌟 FEATURED HIGHLIGHTS</h2>
+        <h2 className="mb-4 mt-3 text-success fw-bold titles">🌟 FEATURED HIGHLIGHTS</h2>
         <p className="text-white mb-5 explore" style={{fontSize:'1.5rem'}}>
           Explore the latest guides, seasonal tips, and plant picks curated just
           for you.

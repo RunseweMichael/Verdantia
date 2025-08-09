@@ -25,7 +25,7 @@ const Navbar = () => {
     <nav className="navbar navbar-expand-lg navbar-dark shadow-sm fixed-top w-100">
       <div className="container-fluid d-flex justify-content-around align-items-center nav-con">
         <div
-          className="navbar-brand fw-bolder text-success responsive-text navbar-title_sm"
+          className="navbar-brand fw-bolder text-success navbar-title_sm"
           style={{
             backgroundColor: "transparent",
             fontSize: "2rem",
