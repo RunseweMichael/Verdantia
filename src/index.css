@@ -132,6 +132,15 @@ body, html{
 
 @media screen and (max-width: 768px) {
 
+    .hero-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    }
+
     .navbar-title-sm{
         font-size: 1.5rem !important;
     }
@@ -162,7 +171,7 @@ body, html{
     font-size: 1rem !important;
     }
 
-    
+
 
 
 
@@ -170,14 +179,7 @@ body, html{
     font-size: 1rem !important;
 }
     
-.hero-container{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-}
+
 
 .typewriter-h4 {
     font-size: 1.3rem !important;

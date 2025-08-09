@@ -6,7 +6,7 @@ function HeroSection() {
     <div className="container-fluid py-5 min-vh-100 d-flex text-left hero-section">
       <div className="p-5 hero-container">
         <div className='row'>
-            <div className='col-md-10'>
+            <div className='col-md-10 col-sm-12'>
         <h4 className="fw-bold mb-4 mt-3 text-success typewriter-h4" style={{fontSize:'3rem'}}>
           <Typewriter
             options={{
@@ -22,7 +22,7 @@ function HeroSection() {
             }}
           />
         </h4>
-        <p className="lead mb-5 typewriter-text" style={{width: '70%', fontSize:'1.6rem'}}>
+        <p className="lead mb-5 typewriter-text" style={{width: '80%', fontSize:'1.6rem'}}>
           Discover expert gardening tips, sustainable practices, and everything you need to build a thriving green space.
         </p>
         <div className='d-flex gap-3 mb-4'>
