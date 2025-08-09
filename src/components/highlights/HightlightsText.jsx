@@ -4,8 +4,8 @@ const HighlightsText = () => {
   return (
     <div className="py-5 bg-dark">
       <div className="container text-center">
-        <h2 className="mb-4 text-success fw-bold titles">🌟 FEATURED HIGHLIGHTS</h2>
-        <p className="text-white mb-5">
+        <h2 className="mb-4 mt-5 text-success fw-bold titles">🌟 FEATURED HIGHLIGHTS</h2>
+        <p className="text-white mb-5" style={{fontSize:'1.6rem'}}>
           Explore the latest guides, seasonal tips, and plant picks curated just
           for you.
         </p>
@@ -22,16 +22,17 @@ const HighlightsText = () => {
                 alt="Plant of the Month"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold">
+                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>
                   🌼 Plant of the Month
                 </h5>
-                <p className="card-text text-white">
+                <p className="card-text text-white" style={{fontSize:'1.3rem'}}>
                   Discover care tips, sunlight needs, and growth patterns for
                   this month’s star plant.
                 </p>
                 <a
                   href="/plants/featured"
                   className="btn btn-outline-success btn-sm fw-bold"
+                  style={{fontSize:'1.2rem'}}
                 >
                   Learn More
                 </a>
@@ -50,16 +51,17 @@ const HighlightsText = () => {
                 alt="Seasonal Tips"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold">
+                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>
                   📅 August Gardening Tips
                 </h5>
-                <p className="card-text text-white">
+                <p className="card-text text-white" style={{fontSize:'1.3rem'}}>
                   Know what to plant, prune, and harvest this month for a
                   thriving garden.
                 </p>
                 <a
                   href="/guides/august-tips"
                   className="btn btn-outline-success btn-sm fw-bold"
+                  style={{fontSize:'1.2rem'}}
                 >
                   View Guide
                 </a>
@@ -78,16 +80,17 @@ const HighlightsText = () => {
                 alt="Latest Blog Post"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold">
+                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>
                   📝 Latest from the Blog
                 </h5>
-                <p className="card-text text-white">
+                <p className="card-text text-white" style={{fontSize:'1.3rem'}}>
                   “5 Common Garden Mistakes (and How to Avoid Them)” — our
                   newest must-read!
                 </p>
                 <a
                   href="/blog/latest"
                   className="btn btn-outline-success btn-sm fw-bold"
+                  style={{fontSize:'1.2rem'}}
                 >
                   Read Blog
                 </a>
@@ -106,16 +109,17 @@ const HighlightsText = () => {
                 alt="Toolbox"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold">
+                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>
                   🧰 Garden Planner Tool
                 </h5>
-                <p className="card-text text-white">
+                <p className="card-text text-white" style={{fontSize:'1.3rem'}}>
                   Plan your garden layout, track planting dates, and manage your
                   green space efficiently.
                 </p>
                 <a
                   href="/tools/planner"
                   className="btn btn-outline-success btn-sm fw-bold"
+                  style={{fontSize:'1.2rem'}}
                 >
                   Try It Now
                 </a>
@@ -134,16 +138,17 @@ const HighlightsText = () => {
                 alt="DIY Garden Project"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold">
+                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>
                   🛠️ DIY Garden Project
                 </h5>
-                <p className="card-text text-white">
+                <p className="card-text text-white" style={{fontSize:'1.3rem'}}>
                   Learn how to build a simple raised garden bed using recycled
                   wood — perfect for veggies!
                 </p>
                 <a
                   href="/guides/diy-raised-bed"
                   className="btn btn-outline-success btn-sm fw-bold"
+                  style={{fontSize:'1.2rem'}}
                 >
                   View Project
                 </a>
@@ -162,16 +167,17 @@ const HighlightsText = () => {
                 alt="Herb Spotlight"
               />
               <div className="card-body">
-                <h5 className="card-title text-success fw-bold">
+                <h5 className="card-title text-success fw-bold" style={{fontSize:'1.5rem'}}>
                   🌿 Herb Spotlight: Amaranthus
                 </h5>
-                <p className="card-text text-white">
+                <p className="card-text text-white" style={{fontSize:'1.3rem'}}>
                   Discover how to grow, harvest, and use fresh amaranthus in
                   your cooking and herbal remedies.
                 </p>
                 <a
                   href="/plants/amaranthus"
                   className="btn btn-outline-success btn-sm fw-bold"
+                  style={{fontSize:'1.2rem'}}
                 >
                   Grow Amaranthus
                 </a>
@@ -219,6 +225,7 @@ const HighlightsText = () => {
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
                 aria-controls="collapseTwo"
+                style={{fontSize:'1.6rem'}}
               >
                 🪴 Why Containers or Raised Beds?
               </button>
@@ -229,7 +236,7 @@ const HighlightsText = () => {
               aria-labelledby="headingTwo"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start">
+              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
                 - Controlled Environment: You control the soil type, drainage,
                 and spacing — reducing risks of disease and weeds. <br />
                 - Less Physical Strain: Raised beds reduce the need to bend
@@ -249,6 +256,7 @@ const HighlightsText = () => {
                 data-bs-target="#collapseThree"
                 aria-expanded="false"
                 aria-controls="collapseThree"
+                style={{fontSize:'1.6rem'}}
               >
                 🌼 Best Beginner Plants
               </button>
@@ -260,12 +268,11 @@ const HighlightsText = () => {
               data-bs-parent="#horticultureAccordion"
             >
               <div className="accordion-body text-start">
-                <p>
+                <p style={{fontSize:'1.2rem'}}>
                   Choose easy-to-grow plants that are forgiving and quick to
                   reward:
                 </p>
-                <br />
-                <ul>
+                <ul style={{fontSize:'1.1rem'}}>
                   <li>
                     Tomatoes – especially cherry varieties; they grow well in
                     pots and produce quickly.
@@ -295,6 +302,7 @@ const HighlightsText = () => {
                 data-bs-target="#collapseFour"
                 aria-expanded="false"
                 aria-controls="collapseFour"
+                style={{fontSize:'1.6rem'}}
               >
                 🌾 How do I keep my garden sustainable?
               </button>
@@ -305,7 +313,7 @@ const HighlightsText = () => {
               aria-labelledby="headingFour"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start">
+              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
                 Use compost, avoid synthetic pesticides, plant native species,
                 and conserve water through drip irrigation and mulching.
               </div>
@@ -321,6 +329,7 @@ const HighlightsText = () => {
                 data-bs-target="#collapseFive"
                 aria-expanded="false"
                 aria-controls="collapseFive"
+                style={{fontSize:'1.6rem'}}
               >
                 💡 What tools should every beginner gardener have?
               </button>
@@ -331,7 +340,7 @@ const HighlightsText = () => {
               aria-labelledby="headingFive"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start">
+              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
                 Essentials include a hand trowel, pruning shears, gloves,
                 watering can, and a garden fork. As your garden grows, add more
                 based on your needs.
@@ -348,6 +357,7 @@ const HighlightsText = () => {
                 data-bs-target="#collapseSix"
                 aria-expanded="false"
                 aria-controls="collapseSix"
+                style={{fontSize:'1.6rem'}}
               >
                 🌿 Keep It Simple
               </button>
@@ -358,7 +368,7 @@ const HighlightsText = () => {
               aria-labelledby="headingSix"
               data-bs-parent="#horticultureAccordion"
             >
-              <div className="accordion-body text-start">
+              <div className="accordion-body text-start" style={{fontSize:'1.2rem'}}>
                 Resist the urge to grow everything at once. Start with a few
                 plants, observe how they grow, and learn from the experience.
                 This foundational success will build your confidence for larger
