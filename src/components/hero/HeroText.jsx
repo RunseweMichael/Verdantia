@@ -4,10 +4,10 @@ import Typewriter from 'typewriter-effect';
 function HeroSection() {
   return (
     <div className="container-fluid py-5 min-vh-100 d-flex text-left hero-section">
-      <div className="p-4 hero-container">
+      <div className="p-3 hero-container">
         <div className='row'>
             <div className='col-md-10'>
-        <h4 className="fw-bold mb-4 text-success typewriter-h4" style={{fontSize:'3rem'}}>
+        <h4 className="fw-bold mb-4 mt-3text-success typewriter-h4" style={{fontSize:'3rem'}}>
           <Typewriter
             options={{
               strings: [
@@ -35,9 +35,9 @@ function HeroSection() {
         </div>
         <h4 className='mt-5 text-success fw-bold' style={{fontSize:'2rem'}}>What We Offer:</h4>
         <ul className="list-unstyled mt-2 home-list">
-          <li className="mb-2 list-link fs-2">🌼 Personalized planting guides</li>
-          <li className="mb-2 list-link fs-2">🌞 Sustainable gardening tips</li>
-          <li className="mb-2 list-link fs-2">💧 Water-wise planning</li>
+          <li className="mb-2 list-link" style={{fontSize:'1.6rem'}}>🌼 Personalized planting guides</li>
+          <li className="mb-2 list-link" style={{fontSize:'1.6rem'}}>🌞 Sustainable gardening tips</li>
+          <li className="mb-2 list-link" style={{fontSize:'1.6rem'}}>💧 Water-wise planning</li>
         </ul>
         </div>
 
