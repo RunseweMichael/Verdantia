@@ -1,11 +1,9 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
+
 
 export default function GardenPlanner() {
   return (
     <div className="bg-dark text-white pt-5 text-center">
-      <Navbar />
       <div className="container pb-3">
         <h2 className="mb-4 pt-5 text-success fw-bold titles">🧰 Garden Planner Tool</h2>
         <h4 className="text-white mb-5 explore">
@@ -32,7 +30,7 @@ export default function GardenPlanner() {
           </li>
           <li className="mb-3">
             <strong className="text-success">📓 Notes & Journaling:</strong> Log your observations, successes, and
-            lessons learned — season to season.
+            lessons learned from season to season.
           </li>
           <li className="mb-3">
             <strong className="text-success">📊 Productivity Insights:</strong> Review your garden’s performance and
@@ -45,8 +43,6 @@ export default function GardenPlanner() {
           joy to every planting season. 🌸
         </p>
       </div>
-      <hr className="border border-2 border-success" />
-      <Footer />
     </div>
   );
 }

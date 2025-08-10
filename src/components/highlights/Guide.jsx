@@ -1,11 +1,8 @@
 import React from 'react';
-import Navbar from '../navbar/Navbar';
-import Footer from '../footer/Footer';
 
 export default function Guide() {
   return (
-    <div className='pt-5 text-white text-left'>
-        <Navbar />
+    <div className='pt-5 bg-dark text-white text-left'>
     <div className="container pb-3">
       <h1 className="mb-4 pt-5 text-success fw-bold titles text-center">🌱 AUGUST GARDEN GUIDE</h1>
       <p className="text-white mb-5 explore">
@@ -17,7 +14,7 @@ export default function Guide() {
       <section className="mb-4">
         <h3 className="fw-bold highlight-head text-success">🌞 Weather & Climate</h3>
         <p className="mb-3 text-white highlight-text">
-          In most regions, August is still warm — sometimes uncomfortably so. 
+          In most regions, August is still warm: sometimes uncomfortably so. 
           That heat can be both a blessing and a challenge. While warm soil accelerates growth for many crops,
           it can also cause stress, especially for tender greens and thirsty fruiting plants.
           I like to check my irrigation systems daily and water deeply early in the morning.
@@ -71,8 +68,6 @@ export default function Guide() {
         </blockquote>
       </section>
     </div>
-    <hr className="border border-2 border-success" />
-    <Footer />
     </div>
   );
 }

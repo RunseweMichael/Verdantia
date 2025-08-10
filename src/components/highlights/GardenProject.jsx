@@ -1,11 +1,8 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
 
 export default function GardenProject() {
   return (
     <div className="bg-dark text-white pt-5 text-center">
-      <Navbar />
       <div className="container pb-3">
         <h2 className="mb-4 pt-5 text-success fw-bold titles">🛠️ DIY Garden Project</h2>
         <h4 className="text-white mb-5 explore">
@@ -44,8 +41,6 @@ export default function GardenProject() {
           backyard with minimal effort and cost. 🌿
         </p>
       </div>
-      <hr className="border border-2 border-success" />
-      <Footer />
     </div>
   );
 }

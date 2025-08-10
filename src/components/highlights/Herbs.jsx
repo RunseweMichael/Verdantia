@@ -1,11 +1,8 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
 
 export default function Herbs() {
   return (
     <div className="bg-dark text-white pt-5 text-center">
-      <Navbar />
       <div className="container pb-3">
         <h2 className="mb-4 pt-5 text-success fw-bold titles">🌿 Herb Spotlight: Amaranthus</h2>
         <h4 className="text-white mb-5 explore">
@@ -13,7 +10,7 @@ export default function Herbs() {
         </h4>
 
         <p className="fw-bold highlight-head text-white" style={{ textAlign: "left" }}>
-          Amaranthus is a versatile plant that’s been cultivated for centuries — prized for its edible leaves,
+          Amaranthus is a versatile plant that’s been cultivated for centuries, prized for its edible leaves,
           nutrient-rich seeds, and medicinal uses.
         </p>
 
@@ -46,8 +43,6 @@ export default function Herbs() {
           every garden. 💚
         </p>
       </div>
-      <hr className="border border-2 border-success" />
-      <Footer />
     </div>
   );
 }

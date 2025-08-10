@@ -1,11 +1,8 @@
 import React from "react";  
-import Navbar from "../navbar/Navbar";
-import Footer from "../footer/Footer";
 
 export default function PlantOfTheMonth() {
   return (
     <div className="bg-dark text-left text-white pt-5">
-        <Navbar />
     <div
       className="card bg-dark text-white shadow-lg p-4 pt-5"
       style={{ borderRadius: "15px", maxWidth: "800px", margin: "auto", border:'2px solid green'}}
@@ -23,7 +20,7 @@ export default function PlantOfTheMonth() {
         <p className="card-text text-white highlight-text">
           As a farmer who’s grown lavender for years, I can tell you this plant
           is much more than just a pretty face. Lavender is a tough, fragrant
-          perennial that thrives in hot, dry conditions — the kind that make
+          perennial that thrives in hot, dry conditions - the kind that make
           other plants wilt. Once established, it asks for very little, yet
           gives so much in return.
         </p>
@@ -75,7 +72,6 @@ export default function PlantOfTheMonth() {
         </p>
       </div>
     </div>
-    <Footer />
     </div>
   );
 }
