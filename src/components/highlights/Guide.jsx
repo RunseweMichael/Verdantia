@@ -24,11 +24,11 @@ export default function Guide() {
       <section className="mb-4">
         <h3 className="fw-bold highlight-head text-success">🥕 Crops to Harvest</h3>
         <ul className="mb-3 text-white highlight-text">
-          <li><strong>Tomatoes</strong> — Peak flavor this month, especially for heirlooms. Harvest fully ripe to avoid cracking.</li>
-          <li><strong>Sweet corn</strong> — Kernels should be plump and milky when pressed.</li>
-          <li><strong>Peppers & Chilies</strong> — Both green and ripe varieties are in abundance.</li>
-          <li><strong>Summer squash</strong> — Pick young for tender texture.</li>
-          <li><strong>Herbs</strong> — Basil, oregano, and thyme are bursting with essential oils now.</li>
+          <li><strong className='text-success'>Tomatoes</strong> : Peak flavor this month, especially for heirlooms. Harvest fully ripe to avoid cracking.</li>
+          <li><strong className='text-success'>Sweet corn</strong> : Kernels should be plump and milky when pressed.</li>
+          <li><strong className='text-success'>Peppers & Chilies</strong> : Both green and ripe varieties are in abundance.</li>
+          <li><strong className='text-success'>Summer squash</strong> : Pick young for tender texture.</li>
+          <li><strong className='text-success'>Herbs</strong> : Basil, oregano, and thyme are bursting with essential oils now.</li>
         </ul>
       </section>
 

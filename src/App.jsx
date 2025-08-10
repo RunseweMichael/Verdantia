@@ -44,14 +44,12 @@ export default function App() {
 
   return (
     <Router>
-      {/* Navbar stays on all pages */}
-      <Navbar />
-
       <Routes>
         <Route
           path="/"
           element={
             <>
+              <Navbar />
               <Element name='home'><HeroMain /></Element>
               <Element name='catalog'><CatalogMain /></Element>
               <Element name='about'><AboutMain /></Element>

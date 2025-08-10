@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Herbs() {
   return (
-    <div className="bg-dark text-white pt-5 text-center">
-      <div className="container pb-3">
+    <div className="bg-dark text-white pt-5 pb-5 text-center">
+      <div className="container pb-5">
         <h2 className="mb-4 pt-5 text-success fw-bold titles">🌿 Herb Spotlight: Amaranthus</h2>
         <h4 className="text-white mb-5 explore">
           Discover how to grow, harvest, and use fresh amaranthus in your cooking and herbal remedies.
@@ -38,7 +38,7 @@ export default function Herbs() {
           </li>
         </ul>
 
-        <p className="fw-bold pt-3 text-success highlight-head" style={{ textAlign: "left" }}>
+        <p className="fw-bold pt-3 pb-3 text-success highlight-head" style={{ textAlign: "left" }}>
           Whether you're growing it for nutrition or healing, amaranthus is a resilient and beautiful herb that belongs in
           every garden. 💚
         </p>
