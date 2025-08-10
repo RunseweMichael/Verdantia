@@ -70,11 +70,6 @@ body, html{
     margin-bottom: 20px;
 }
 
-.cards:hover {
-    transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-
 .nav-link {
   position: relative;
   display: inline-block;
@@ -244,9 +239,9 @@ body, html{
         background-image: url('/contactImg/img2.jpg');
     }
 
+    .typewriter-h4 {
+        font-size: 1.3rem !important;
+    }
 
 
-.typewriter-h4 {
-    font-size: 1.3rem !important;
-}
 }

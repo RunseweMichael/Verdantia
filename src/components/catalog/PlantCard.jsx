@@ -11,10 +11,9 @@ const PlantCard = ({ plant }) => {
           <li>☀️ Sunlight: {plant.sun}</li>
           <li>💧 Water: {plant.water}</li>
           <li>🌡️ Season: {plant.season}</li>
+          <li>🌱 Soil Type: {plant.soil}</li>
+          <li>📈 Growth Rate: {plant.growthRate}</li>
         </ul>
-        <a href={`/plants/${plant.slug}`} target="_blank" className="btn btn-outline-success btn-sm fw-bold">
-          View Details
-        </a>
       </div>
     </div>
   );

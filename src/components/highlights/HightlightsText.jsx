@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const HighlightsText = () => {
   return (
@@ -29,13 +30,12 @@ const HighlightsText = () => {
                   Discover care tips, sunlight needs, and growth patterns for
                   this month’s star plant.
                 </p>
-                <a
-                  href="/plants/featured"
+                <Link to="/plant-of-the-month"
                   className="btn btn-outline-success btn-sm fw-bold"
                   style={{fontSize:'1.2rem'}}
                 >
                   Learn More
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -52,19 +52,18 @@ const HighlightsText = () => {
               />
               <div className="card-body">
                 <h5 className="card-title text-success fw-bold highlight-head" style={{fontSize:'1.4rem'}}>
-                  📅 August Gardening Tips
+                  📅 {new Date().toLocaleString('default', { month: 'long' })} Gardening Tips
                 </h5>
                 <p className="card-text text-white highlight-text" style={{fontSize:'1.1rem'}}>
                   Know what to plant, prune, and harvest this month for a
                   thriving garden.
                 </p>
-                <a
-                  href="/guides/august-tips"
+                <Link to='/guide'
                   className="btn btn-outline-success btn-sm fw-bold"
                   style={{fontSize:'1.2rem'}}
                 >
                   View Guide
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -87,13 +86,12 @@ const HighlightsText = () => {
                   “5 Common Garden Mistakes (and How to Avoid Them)” — our
                   newest must-read!
                 </p>
-                <a
-                  href="/blog/latest"
+                <Link to='/blog'
                   className="btn btn-outline-success btn-sm fw-bold"
                   style={{fontSize:'1.2rem'}}
                 >
                   Read Blog
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -116,13 +114,12 @@ const HighlightsText = () => {
                   Plan your garden layout, track planting dates, and manage your
                   green space efficiently.
                 </p>
-                <a
-                  href="/tools/planner"
+                <Link to="/garden-planner"
                   className="btn btn-outline-success btn-sm fw-bold"
                   style={{fontSize:'1.2rem'}}
                 >
                   Try It Now
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -145,13 +142,12 @@ const HighlightsText = () => {
                   Learn how to build a simple raised garden bed using recycled
                   wood — perfect for veggies!
                 </p>
-                <a
-                  href="/guides/diy-raised-bed"
+                <Link to='/garden-project'
                   className="btn btn-outline-success btn-sm fw-bold"
                   style={{fontSize:'1.2rem'}}
                 >
                   View Project
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -174,13 +170,12 @@ const HighlightsText = () => {
                   Discover how to grow, harvest, and use fresh amaranthus in
                   your cooking and herbal remedies.
                 </p>
-                <a
-                  href="/plants/amaranthus"
+                <Link to='herbs'
                   className="btn btn-outline-success btn-sm fw-bold"
                   style={{fontSize:'1.2rem'}}
                 >
                   Grow Amaranthus
-                </a>
+                </Link>
               </div>
             </div>
           </div>
